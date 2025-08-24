@@ -1,5 +1,5 @@
 {
   "redirects": [
-    { "source": "/", "destination": "/subdir", "permanent": true }
+    { "source": "/", "destination": "/portfolio", "permanent": true }
   ]
 }
