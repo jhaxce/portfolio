@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --astro-transition-duration: 250ms;
+  --astro-transition-easing: ease-in-out;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: fade var(--astro-transition-duration) var(--astro-transition-easing);
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
