@@ -17,9 +17,10 @@ import { ClientRouter } from "astro:transitions";
     <ClientRouter />
     
     <header class="p-4 bg-gray-800 flex gap-4">
-      <a href="/" class={`hover:underline ${Astro.url.pathname === "/" ? "text-blue-400" : ""}`}>Home</a>
-      <a href="/projects" class={`hover:underline ${Astro.url.pathname === "/projects" ? "text-blue-400" : ""}`}>Projects</a>
-      <a href="/about" class={`hover:underline ${Astro.url.pathname === "/about" ? "text-blue-400" : ""}`}>About</a>
+      <a href="/portfolio" class={`hover:underline ${Astro.url.pathname === "/" ? "text-blue-400" : ""}`}>Home</a>
+      <a href="/portfolio/projects" class={`hover:underline ${Astro.url.pathname === "/projects" ? "text-blue-400" : ""}`}>Projects</a>
+      <a href="/portfolio/about" class={`hover:underline ${Astro.url.pathname === "/about" ? "text-blue-400" : ""}`}>About</a>
+      <a href="/portfolio/contact" class={`hover:underline ${Astro.url.pathname === "/about" ? "text-blue-400" : ""}`}>Contact</a>
     </header>
 
     <main class="flex-1 p-6">

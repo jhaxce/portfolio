@@ -1,5 +1,9 @@
 {
   "redirects": [
+<<<<<<< HEAD
     { "source": "/", "destination": "/subdir", "permanent": true }
+=======
+    { "source": "/", "destination": "/portfolio", "permanent": true }
+>>>>>>> 2ed2ca41fcac6c0f8e21249d684a98f2366e648e
   ]
 }
