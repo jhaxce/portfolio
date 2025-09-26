@@ -1,0 +1,189 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Blog">
+  <section class="space-y-8">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        Blog & Articles
+      </h1>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+        Thoughts, tutorials, and insights about technology, development, and innovation.
+      </p>
+    </div>
+
+    <!-- Featured Post -->
+    <div class="bg-gradient-to-r from-blue-900 to-purple-900 rounded-lg p-8 mb-8">
+      <span class="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-medium">Featured Post</span>
+      <h2 class="text-2xl font-bold mt-4 mb-3 text-white">Building Modern Web Applications with Astro</h2>
+      <p class="text-blue-100 mb-4">
+        Explore the benefits of using Astro for building fast, content-focused websites with minimal JavaScript...
+      </p>
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4 text-blue-200 text-sm">
+          <span>📅 March 15, 2024</span>
+          <span>⏱️ 8 min read</span>
+          <span>👁️ 1.2k views</span>
+        </div>
+        <a href="#" class="bg-white text-blue-900 px-4 py-2 rounded-lg font-medium hover:bg-blue-50 transition-colors">
+          Read More →
+        </a>
+      </div>
+    </div>
+
+    <!-- Blog Posts Grid -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Blog Post 1 -->
+      <article class="bg-gray-800 rounded-lg overflow-hidden hover:bg-gray-750 transition-colors">
+        <div class="h-48 bg-gradient-to-br from-green-400 to-blue-500 relative">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="text-white text-4xl">🚀</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="bg-green-900 text-green-200 px-2 py-1 rounded text-xs">Tutorial</span>
+            <span class="text-gray-400 text-sm">March 10, 2024</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-white hover:text-blue-400 transition-colors">
+            <a href="#">Getting Started with React Server Components</a>
+          </h3>
+          <p class="text-gray-400 mb-4 line-clamp-3">
+            A comprehensive guide to understanding and implementing React Server Components in your next project...
+          </p>
+          <div class="flex items-center justify-between">
+            <div class="flex gap-2">
+              <span class="text-gray-500 text-sm">⏱️ 6 min read</span>
+              <span class="text-gray-500 text-sm">👁️ 856 views</span>
+            </div>
+            <a href="#" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read More →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog Post 2 -->
+      <article class="bg-gray-800 rounded-lg overflow-hidden hover:bg-gray-750 transition-colors">
+        <div class="h-48 bg-gradient-to-br from-purple-400 to-pink-500 relative">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="text-white text-4xl">💡</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="bg-purple-900 text-purple-200 px-2 py-1 rounded text-xs">Opinion</span>
+            <span class="text-gray-400 text-sm">March 5, 2024</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-white hover:text-blue-400 transition-colors">
+            <a href="#">The Future of Web Development: Trends to Watch</a>
+          </h3>
+          <p class="text-gray-400 mb-4 line-clamp-3">
+            Exploring emerging technologies and trends that will shape the future of web development...
+          </p>
+          <div class="flex items-center justify-between">
+            <div class="flex gap-2">
+              <span class="text-gray-500 text-sm">⏱️ 4 min read</span>
+              <span class="text-gray-500 text-sm">👁️ 623 views</span>
+            </div>
+            <a href="#" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read More →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog Post 3 -->
+      <article class="bg-gray-800 rounded-lg overflow-hidden hover:bg-gray-750 transition-colors">
+        <div class="h-48 bg-gradient-to-br from-orange-400 to-red-500 relative">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="text-white text-4xl">🛠️</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="bg-orange-900 text-orange-200 px-2 py-1 rounded text-xs">Guide</span>
+            <span class="text-gray-400 text-sm">February 28, 2024</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-white hover:text-blue-400 transition-colors">
+            <a href="#">Essential DevOps Tools for Modern Development</a>
+          </h3>
+          <p class="text-gray-400 mb-4 line-clamp-3">
+            A curated list of DevOps tools that every developer should know to streamline their workflow...
+          </p>
+          <div class="flex items-center justify-between">
+            <div class="flex gap-2">
+              <span class="text-gray-500 text-sm">⏱️ 7 min read</span>
+              <span class="text-gray-500 text-sm">👁️ 945 views</span>
+            </div>
+            <a href="#" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read More →</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Blog Post 4 -->
+      <article class="bg-gray-800 rounded-lg overflow-hidden hover:bg-gray-750 transition-colors">
+        <div class="h-48 bg-gradient-to-br from-cyan-400 to-blue-500 relative">
+          <div class="absolute inset-0 flex items-center justify-center">
+            <span class="text-white text-4xl">📊</span>
+          </div>
+        </div>
+        <div class="p-6">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="bg-cyan-900 text-cyan-200 px-2 py-1 rounded text-xs">Analysis</span>
+            <span class="text-gray-400 text-sm">February 22, 2024</span>
+          </div>
+          <h3 class="text-xl font-semibold mb-3 text-white hover:text-blue-400 transition-colors">
+            <a href="#">Performance Optimization Strategies for React Apps</a>
+          </h3>
+          <p class="text-gray-400 mb-4 line-clamp-3">
+            Learn proven techniques to optimize your React applications for better performance and user experience...
+          </p>
+          <div class="flex items-center justify-between">
+            <div class="flex gap-2">
+              <span class="text-gray-500 text-sm">⏱️ 9 min read</span>
+              <span class="text-gray-500 text-sm">👁️ 1.1k views</span>
+            </div>
+            <a href="#" class="text-blue-400 hover:text-blue-300 text-sm font-medium">Read More →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <!-- Newsletter Subscription -->
+    <div class="bg-gray-800 rounded-lg p-8 text-center mt-12">
+      <h2 class="text-2xl font-bold mb-3 text-white">Stay Updated</h2>
+      <p class="text-gray-400 mb-6 max-w-md mx-auto">
+        Subscribe to get notified about new blog posts, tutorials, and insights.
+      </p>
+      <div class="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
+        <input 
+          type="email" 
+          placeholder="Enter your email" 
+          class="flex-1 px-4 py-2 bg-gray-700 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+        <button class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-medium transition-colors">
+          Subscribe
+        </button>
+      </div>
+      <p class="text-gray-500 text-sm mt-3">No spam, unsubscribe at any time.</p>
+    </div>
+
+    <!-- Blog Stats -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+      <div class="bg-gray-800 p-4 rounded-lg text-center">
+        <div class="text-2xl font-bold text-blue-400 mb-1">24</div>
+        <p class="text-gray-400 text-sm">Articles Published</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg text-center">
+        <div class="text-2xl font-bold text-green-400 mb-1">5.2k</div>
+        <p class="text-gray-400 text-sm">Total Views</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg text-center">
+        <div class="text-2xl font-bold text-purple-400 mb-1">128</div>
+        <p class="text-gray-400 text-sm">Subscribers</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-lg text-center">
+        <div class="text-2xl font-bold text-yellow-400 mb-1">4.8</div>
+        <p class="text-gray-400 text-sm">Avg Rating</p>
+      </div>
+    </div>
+  </section>
+</Layout>

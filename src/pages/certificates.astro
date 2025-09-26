@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Certificates">
+  <section class="space-y-8">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        Certificates
+      </h1>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+        Professional certifications and training achievements that validate my expertise.
+      </p>
+    </div>
+
+    <!-- Certificates Grid -->
+    <div class="grid md:grid-cols-2 gap-6">
+      <!-- Example Certificate -->
+      <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors border border-gray-700">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold text-blue-400 mb-2">AWS Certified Developer</h3>
+            <p class="text-gray-300 mb-1">Amazon Web Services</p>
+            <p class="text-gray-400 text-sm">Issued: January 2024 • Expires: January 2027</p>
+          </div>
+          <div class="ml-4">
+            <div class="w-12 h-12 bg-orange-500 rounded-lg flex items-center justify-center">
+              <span class="text-white font-bold text-lg">AWS</span>
+            </div>
+          </div>
+        </div>
+        <p class="text-gray-400 mb-4">
+          Validates technical expertise in developing and maintaining applications on the AWS platform.
+        </p>
+        <div class="flex items-center justify-between">
+          <div class="flex gap-2">
+            <span class="bg-orange-900 text-orange-200 px-2 py-1 rounded text-xs">Cloud</span>
+            <span class="bg-orange-900 text-orange-200 px-2 py-1 rounded text-xs">Development</span>
+          </div>
+          <a href="#" class="text-blue-400 hover:text-blue-300 text-sm font-medium">View Certificate →</a>
+        </div>
+      </div>
+
+      <!-- Example Certificate 2 -->
+      <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors border border-gray-700">
+        <div class="flex items-start justify-between mb-4">
+          <div class="flex-1">
+            <h3 class="text-xl font-semibold text-blue-400 mb-2">React Developer Certification</h3>
+            <p class="text-gray-300 mb-1">Meta (Facebook)</p>
+            <p class="text-gray-400 text-sm">Issued: December 2023</p>
+          </div>
+          <div class="ml-4">
+            <div class="w-12 h-12 bg-blue-500 rounded-lg flex items-center justify-center">
+              <span class="text-white font-bold text-lg">⚛️</span>
+            </div>
+          </div>
+        </div>
+        <p class="text-gray-400 mb-4">
+          Comprehensive certification covering React fundamentals, hooks, state management, and modern development practices.
+        </p>
+        <div class="flex items-center justify-between">
+          <div class="flex gap-2">
+            <span class="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">React</span>
+            <span class="bg-blue-900 text-blue-200 px-2 py-1 rounded text-xs">Frontend</span>
+          </div>
+          <a href="#" class="text-blue-400 hover:text-blue-300 text-sm font-medium">View Certificate →</a>
+        </div>
+      </div>
+
+      <!-- Placeholder for more certificates -->
+      <div class="md:col-span-2 text-center py-8 border-2 border-dashed border-gray-700 rounded-lg">
+        <p class="text-gray-500 italic">More certificates coming soon...</p>
+        <p class="text-gray-600 text-sm mt-2">Currently pursuing additional certifications in cloud computing and DevOps</p>
+      </div>
+    </div>
+
+    <!-- Certification Goals -->
+    <div class="mt-12 bg-gray-800 rounded-lg p-6">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-400">🎯 Certification Goals</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="bg-gray-700 p-4 rounded-lg">
+          <h3 class="font-semibold mb-2 text-gray-300">AWS Solutions Architect</h3>
+          <p class="text-gray-400 text-sm">Target: Q2 2024</p>
+        </div>
+        <div class="bg-gray-700 p-4 rounded-lg">
+          <h3 class="font-semibold mb-2 text-gray-300">Google Cloud Professional</h3>
+          <p class="text-gray-400 text-sm">Target: Q3 2024</p>
+        </div>
+        <div class="bg-gray-700 p-4 rounded-lg">
+          <h3 class="font-semibold mb-2 text-gray-300">Kubernetes Certified</h3>
+          <p class="text-gray-400 text-sm">Target: Q4 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>

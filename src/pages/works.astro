@@ -1,0 +1,53 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Work Experience">
+  <section class="space-y-8">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        Work Experience
+      </h1>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+        My professional journey and the roles that have shaped my career.
+      </p>
+    </div>
+
+    <!-- Work Experience Cards -->
+    <div class="space-y-8">
+      <!-- Example Work Experience -->
+      <div class="bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors">
+        <div class="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+          <div>
+            <h3 class="text-xl font-semibold text-blue-400 mb-1">Software Developer</h3>
+            <p class="text-gray-300 mb-2">Company Name</p>
+            <p class="text-gray-400 text-sm">January 2023 - Present</p>
+          </div>
+          <div class="mt-4 md:mt-0">
+            <span class="bg-blue-900 text-blue-200 px-3 py-1 rounded-full text-sm">Full-time</span>
+          </div>
+        </div>
+        <div class="space-y-3">
+          <p class="text-gray-300">
+            Brief description of your role and key responsibilities.
+          </p>
+          <ul class="list-disc list-inside text-gray-400 space-y-1">
+            <li>Key achievement or responsibility</li>
+            <li>Another important contribution</li>
+            <li>Technologies used and impact made</li>
+          </ul>
+          <div class="flex flex-wrap gap-2 mt-4">
+            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">JavaScript</span>
+            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">React</span>
+            <span class="bg-gray-700 text-gray-300 px-2 py-1 rounded text-xs">Node.js</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Add more work experiences here -->
+      <div class="text-center py-8">
+        <p class="text-gray-500 italic">More work experiences coming soon...</p>
+      </div>
+    </div>
+  </section>
+</Layout>

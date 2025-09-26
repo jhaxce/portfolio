@@ -1,0 +1,135 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Awards">
+  <section class="space-y-8">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        Awards & Recognition
+      </h1>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+        Recognition for outstanding performance, innovation, and contributions to the field.
+      </p>
+    </div>
+
+    <!-- Awards Timeline -->
+    <div class="relative">
+      <!-- Timeline line -->
+      <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-400 to-purple-500"></div>
+      
+      <div class="space-y-8">
+        <!-- Award Item -->
+        <div class="relative flex items-start">
+          <!-- Timeline dot -->
+          <div class="absolute left-6 w-4 h-4 bg-blue-400 rounded-full border-4 border-gray-900"></div>
+          
+          <!-- Award content -->
+          <div class="ml-16 bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors w-full">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex-1">
+                <h3 class="text-xl font-semibold text-blue-400 mb-2">🏆 Excellence in Software Development</h3>
+                <p class="text-gray-300 mb-1">Tech Company Inc.</p>
+                <p class="text-gray-400 text-sm">December 2023</p>
+              </div>
+              <div class="ml-4">
+                <div class="w-12 h-12 bg-yellow-500 rounded-lg flex items-center justify-center">
+                  <span class="text-white font-bold text-lg">🥇</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-400 mb-4">
+              Recognized for exceptional performance in delivering high-quality software solutions and mentoring junior developers.
+            </p>
+            <div class="flex gap-2">
+              <span class="bg-yellow-900 text-yellow-200 px-2 py-1 rounded text-xs">Performance</span>
+              <span class="bg-yellow-900 text-yellow-200 px-2 py-1 rounded text-xs">Leadership</span>
+              <span class="bg-yellow-900 text-yellow-200 px-2 py-1 rounded text-xs">Innovation</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Award Item 2 -->
+        <div class="relative flex items-start">
+          <!-- Timeline dot -->
+          <div class="absolute left-6 w-4 h-4 bg-purple-400 rounded-full border-4 border-gray-900"></div>
+          
+          <!-- Award content -->
+          <div class="ml-16 bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors w-full">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex-1">
+                <h3 class="text-xl font-semibold text-purple-400 mb-2">🌟 Innovation Award</h3>
+                <p class="text-gray-300 mb-1">Hackathon 2023</p>
+                <p class="text-gray-400 text-sm">October 2023</p>
+              </div>
+              <div class="ml-4">
+                <div class="w-12 h-12 bg-purple-500 rounded-lg flex items-center justify-center">
+                  <span class="text-white font-bold text-lg">🚀</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-400 mb-4">
+              First place winner for developing an innovative solution that improves user experience and accessibility.
+            </p>
+            <div class="flex gap-2">
+              <span class="bg-purple-900 text-purple-200 px-2 py-1 rounded text-xs">Innovation</span>
+              <span class="bg-purple-900 text-purple-200 px-2 py-1 rounded text-xs">UX/UI</span>
+              <span class="bg-purple-900 text-purple-200 px-2 py-1 rounded text-xs">Accessibility</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Award Item 3 -->
+        <div class="relative flex items-start">
+          <!-- Timeline dot -->
+          <div class="absolute left-6 w-4 h-4 bg-green-400 rounded-full border-4 border-gray-900"></div>
+          
+          <!-- Award content -->
+          <div class="ml-16 bg-gray-800 rounded-lg p-6 hover:bg-gray-750 transition-colors w-full">
+            <div class="flex items-start justify-between mb-4">
+              <div class="flex-1">
+                <h3 class="text-xl font-semibold text-green-400 mb-2">🎓 Academic Excellence</h3>
+                <p class="text-gray-300 mb-1">University Name</p>
+                <p class="text-gray-400 text-sm">May 2022</p>
+              </div>
+              <div class="ml-4">
+                <div class="w-12 h-12 bg-green-500 rounded-lg flex items-center justify-center">
+                  <span class="text-white font-bold text-lg">📚</span>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-400 mb-4">
+              Graduated with highest honors for outstanding academic performance in Computer Science.
+            </p>
+            <div class="flex gap-2">
+              <span class="bg-green-900 text-green-200 px-2 py-1 rounded text-xs">Academic</span>
+              <span class="bg-green-900 text-green-200 px-2 py-1 rounded text-xs">Computer Science</span>
+              <span class="bg-green-900 text-green-200 px-2 py-1 rounded text-xs">Honors</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Recognition Stats -->
+    <div class="mt-12 grid md:grid-cols-3 gap-6">
+      <div class="bg-gradient-to-br from-blue-900 to-blue-800 rounded-lg p-6 text-center">
+        <div class="text-3xl font-bold text-blue-400 mb-2">5+</div>
+        <p class="text-blue-200">Awards Received</p>
+      </div>
+      <div class="bg-gradient-to-br from-purple-900 to-purple-800 rounded-lg p-6 text-center">
+        <div class="text-3xl font-bold text-purple-400 mb-2">3</div>
+        <p class="text-purple-200">Hackathon Wins</p>
+      </div>
+      <div class="bg-gradient-to-br from-green-900 to-green-800 rounded-lg p-6 text-center">
+        <div class="text-3xl font-bold text-green-400 mb-2">100%</div>
+        <p class="text-green-200">Team Recognition</p>
+      </div>
+    </div>
+
+    <!-- Call to action -->
+    <div class="text-center py-8">
+      <p class="text-gray-500 italic">More achievements and recognition coming soon...</p>
+    </div>
+  </section>
+</Layout>

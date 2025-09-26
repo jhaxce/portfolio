@@ -1,0 +1,104 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Skills">
+  <section class="space-y-12">
+    <div class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+        Skills & Expertise
+      </h1>
+      <p class="text-gray-400 text-lg max-w-2xl mx-auto">
+        A comprehensive overview of my technical abilities and soft skills.
+      </p>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="space-y-8">
+      <div>
+        <h2 class="text-2xl font-semibold mb-6 text-blue-400">⚡ Technical Skills</h2>
+        
+        <!-- Programming Languages -->
+        <div class="mb-8">
+          <h3 class="text-lg font-semibold mb-4 text-gray-300">Programming Languages</h3>
+          <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+            <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-750 transition-colors">
+              <div class="text-2xl mb-2">🟨</div>
+              <p class="font-medium">JavaScript</p>
+              <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
+                <div class="bg-yellow-400 h-2 rounded-full" style="width: 90%"></div>
+              </div>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-750 transition-colors">
+              <div class="text-2xl mb-2">🔷</div>
+              <p class="font-medium">TypeScript</p>
+              <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
+                <div class="bg-blue-400 h-2 rounded-full" style="width: 85%"></div>
+              </div>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-750 transition-colors">
+              <div class="text-2xl mb-2">🐍</div>
+              <p class="font-medium">Python</p>
+              <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
+                <div class="bg-green-400 h-2 rounded-full" style="width: 80%"></div>
+              </div>
+            </div>
+            <div class="bg-gray-800 p-4 rounded-lg text-center hover:bg-gray-750 transition-colors">
+              <div class="text-2xl mb-2">⚛️</div>
+              <p class="font-medium">React</p>
+              <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
+                <div class="bg-cyan-400 h-2 rounded-full" style="width: 88%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools & Technologies -->
+        <div class="mb-8">
+          <h3 class="text-lg font-semibold mb-4 text-gray-300">Tools & Technologies</h3>
+          <div class="flex flex-wrap gap-3">
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">Git</span>
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">Docker</span>
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">AWS</span>
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">Node.js</span>
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">MongoDB</span>
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">PostgreSQL</span>
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">VS Code</span>
+            <span class="bg-gray-700 text-gray-300 px-3 py-2 rounded-lg text-sm hover:bg-gray-600 transition-colors">Figma</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills -->
+      <div>
+        <h2 class="text-2xl font-semibold mb-6 text-purple-400">🤝 Soft Skills</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+          <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-750 transition-colors">
+            <h3 class="text-lg font-semibold mb-3 text-purple-300">Communication</h3>
+            <p class="text-gray-400">
+              Strong verbal and written communication skills, able to explain complex technical concepts to both technical and non-technical stakeholders.
+            </p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-750 transition-colors">
+            <h3 class="text-lg font-semibold mb-3 text-purple-300">Problem Solving</h3>
+            <p class="text-gray-400">
+              Analytical mindset with a systematic approach to identifying, analyzing, and solving complex problems efficiently.
+            </p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-750 transition-colors">
+            <h3 class="text-lg font-semibold mb-3 text-purple-300">Team Collaboration</h3>
+            <p class="text-gray-400">
+              Experience working in agile teams, mentoring junior developers, and contributing to a positive team culture.
+            </p>
+          </div>
+          <div class="bg-gray-800 p-6 rounded-lg hover:bg-gray-750 transition-colors">
+            <h3 class="text-lg font-semibold mb-3 text-purple-300">Adaptability</h3>
+            <p class="text-gray-400">
+              Quick to learn new technologies and adapt to changing requirements in fast-paced development environments.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
